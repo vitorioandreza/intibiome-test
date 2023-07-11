@@ -1,0 +1,42 @@
+
+#banner img,
+#products img {
+    width: 100%;
+}
+
+/*** blog ***/
+#blog h2 {
+    margin-bottom: 55px;
+}
+
+#blog .slider {
+    margin-bottom: 85px;
+}
+
+#blog .slider .item {
+    display: block;
+    padding-bottom: 50px;
+}
+
+#blog .slider .item p {
+    margin-bottom: 0;
+}
+
+#blog .slider .item .thumb {
+    height: 232px;
+}
+
+@media (max-width: 991px) {
+    #products > div,
+    #blog > div {
+        padding: 0;
+    }
+
+    #blog .slider {
+        margin-bottom: 15px;
+    }
+
+    #blog .wrapper-btn {
+        padding: 0 18px;
+    }
+}
